@@ -4,12 +4,12 @@ Steps to Solve (play-by-play)
 * Can get the highest order id with:
   * `GET https://api.stockfighter.io/ob/api/venues/:venue/stocks/:stock/orders/99999999`
   * Returns order id of the highest order in the error response
-  
+
 * Can get an account number by canceling an order you don't own on:
   * `DELETE https://api.stockfighter.io/ob/api/venues/:venue/stocks/:stock/orders/:order`
   * Returns account number of originating account
 
-Lo & Behold, an unauthorized cancel returns the account associated with the order. 
+Lo & Behold, an unauthorized cancel returns the account associated with the order.
 Thus we're able to enumerate/discover the accounts that exist. Pseudocode:
 
 ```ruby
@@ -21,7 +21,7 @@ Thus we're able to enumerate/discover the accounts that exist. Pseudocode:
 end
 ```
 
-All of the strict API calls require authentication - as I found earlier searching for a timing attack ;) - 
+All of the strict API calls require authentication - as I found earlier searching for a timing attack ;) -
 so we'll have to use the websockets to watch the fills. Quotes ought to be the same accross all of the accounts
 so no need to monitor those.
 
@@ -33,7 +33,7 @@ Step 1:
   3. ...
   4. Profit!
 
-In a dry run using the enumeration technique I was able to discover some other accounts: 
+In a dry run using the enumeration technique I was able to discover some other accounts:
 
 ```
 YAS64459913, MM63117084, BY87868375, LKH6571236, ..., LYC73209006
@@ -50,9 +50,11 @@ Step 2:
   3. Wait 15 or so minutes
   3. Graph the results
 
-Upon graphing the fills for all accounts, it's abundantly clear which account has made a substantial sum of money buying low and selling high, 
-and is exhibiting anomalous activity. The other actors present in the exchange are a combination of market makers, and the occasional 
+Upon graphing the fills for all accounts, it's abundantly clear which account has made a substantial sum of money buying low and selling high,
+and is exhibiting anomalous activity. The other actors present in the exchange are a combination of market makers, and the occasional
 isolated purchase accounts.
+
+Graphs can be viewed here: [http://gavingmiller.github.io/level-6/](http://gavingmiller.github.io/level-6/)
 
 
 

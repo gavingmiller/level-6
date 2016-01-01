@@ -63,8 +63,9 @@ The final bit of information is the trade volume is more sparse than a market ma
 a much different buy/sell strategy.
 
 To date, account BFB55463548 made a profit of $44,041.00 by:
-  Selling 25,797 shares for $2,171,398.00
-  Buying 27,471 shares for -$2,298,022.00
-  With 1674 shares outstanding @ $101.00 ($170,664.00).
+
+* Selling 25,797 shares for $2,171,398.00
+* Buying 27,471 shares for -$2,298,022.00
+* With 1674 shares outstanding @ $101.00 ($170,664.00).
 
 While not definitive conviction worthy proof, this provides enough information to subpoena this account as being anomalous.

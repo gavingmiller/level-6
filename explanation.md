@@ -1,3 +1,5 @@
+Feel free to skip to 
+
 Steps to Solve (play-by-play)
 ==============
 
@@ -25,9 +27,7 @@ All of the strict API calls require authentication - as I found earlier searchin
 so we'll have to use the websockets to watch the fills. Quotes ought to be the same accross all of the accounts
 so no need to monitor those.
 
------
-
-Step 1:
+### Step 1:
   1. Iterate accross X order_ids and "cancel" to discover all the bots that exist
   2. Create a new websocket to listen to all of the bots
   3. ...
@@ -42,9 +42,7 @@ YAS64459913, MM63117084, BY87868375, LKH6571236, ..., LYC73209006
 It looks like we're getting 100 accounts per level instance. After 4000 cancels it seems fair to settle on that number.
 That's substantially more than I assumed were running on a level o_O (will have to try account enumeration on other levels)
 
------
-
-Step 2:
+### Step 2:
   1. Create execution/fill web sockets foreach account
   2. Modify the fills to dump the original orders to log
   3. Wait 15 or so minutes

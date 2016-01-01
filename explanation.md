@@ -56,32 +56,15 @@ isolated purchase accounts.
 
 Graphs can be viewed here: [http://gavingmiller.github.io/level-6/](http://gavingmiller.github.io/level-6/)
 
-
-In total account SAH49716241 had made a profit of $2,826,147.00 by selling 95,038 shares for $290,460,725.00
-and buying 94,878 shares for -$287,634,578.00 in less than a 36 minute timeframe.
-This is equivalent of $78,504.00 per minute, which is ... substantial.
-
 One of the tip off clues to the abnormal behavior of this particular account is that the sells generally remain above the buys.
-This gives a visual tip that a profit is being made even though the stock is trending downward, an indicator of someone that knows
-when a stock will be in a position to sell profitably.
+This gives a visual tip that someone is using some measure of exactness when trading.
 
-The final bit of information is the trade volume is more sparse than a market maker which has a much higher volume.
+The final bit of information is the trade volume is more sparse than a market maker which has a much higher volume. Again indicating
+a much different buy/sell strategy.
 
+To date, account BFB55463548 made a profit of $44,041.00 by:
+  Selling 25,797 shares for $2,171,398.00
+  Buying 27,471 shares for -$2,298,022.00
+  With 1674 shares outstanding @ $101.00 ($170,664.00).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+While not definitive conviction worthy proof, this provides enough information to subpoena this account as being anomalous.

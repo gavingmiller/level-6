@@ -1,4 +1,4 @@
-Feel free to skip to [Step 2](https://github.com/gavingmiller/level-6/blob/gh-pages/explanation.md#step-2) which contains explanation. First part is the lead in to evidence gathering.
+Feel free to skip to [Step 2](https://github.com/gavingmiller/level-6/blob/gh-pages/explanation.md#step-2) which contains evidence explanation. First part is the lead in to evidence gathering.
 
 Steps to Solve (play-by-play)
 ==============

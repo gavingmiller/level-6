@@ -52,7 +52,7 @@ Upon graphing the fills for all accounts, it's abundantly clear which account ha
 and is exhibiting anomalous activity. The other actors present in the exchange are a combination of market makers, and the occasional
 isolated purchase accounts.
 
-Graphs can be viewed here: [http://gavingmiller.github.io/level-6/](http://gavingmiller.github.io/level-6/)
+Graphs can be viewed here: [http://gavingmiller.github.io/level-6/](http://gavingmiller.github.io/level-6/) (**BFB55463548** is the third graph on the page)
 
 One of the tip off clues to the abnormal behavior of this particular account is that the sells generally remain above the buys.
 This gives a visual tip that someone is using some measure of exactness when trading.
@@ -60,7 +60,7 @@ This gives a visual tip that someone is using some measure of exactness when tra
 The final bit of information is the trade volume is more sparse than a market maker which has a much higher volume. Again indicating
 a much different buy/sell strategy.
 
-To date, account BFB55463548 made a profit of $44,041.00 by:
+To date, account **BFB55463548** made a profit of $44,041.00 by:
 
 * Selling 25,797 shares for $2,171,398.00
 * Buying 27,471 shares for -$2,298,022.00
